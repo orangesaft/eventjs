@@ -1,4 +1,4 @@
-/*//add input value on the ul
+//add input value on the ul
 const buttons = document.querySelector("button");
 const input = document.querySelector("#item");
 const shpli = document.querySelector("ul");
@@ -14,26 +14,5 @@ shpli.appendChild(newLi);
 
     });
 //2.function that creates <li>newValue</li>
-//3.append to original ul*/
-
-const buttons = document.querySelector("button");
-const input = document.querySelector("#item");
-const shpli = document.querySelector("ul");
-
-//1.read input whenever button is triggered
-buttons.addEventListener("click", () => {
-
-    shpli.createElement("li");
-    const one = document.querySelector("li");
-    one.textContent("input");
-
-    
-}
-
-   // function listcreator {
-
-
-    );
-//2.function that creates <li>newValue</li>
 //3.append to original ul
-shpli.appendChild(one);
+
